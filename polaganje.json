@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "60e96f99c5d79003b8bd1d3e"
+  },
+  "idPolaganja": 1,
+  "idPrijave": 1, 
+  "brojPoena": 39,
+  "datum": "2021-06-08",
+  "polozio": 0,
+  "inspektor": "bob"
+},
+{
+  "_id": {
+    "$oid": "60e96fa3c5d79003b8bd1d3f"
+  },
+  "idPolaganja": 2,
+  "idPrijave": 2,
+  "brojPoena": 98,
+  "datum": "2021-06-08",
+  "polozio": 1,
+  "inspektor": "bob"
+},
+{
+  "_id": {
+    "$oid": "60e96ff1c5d79003b8bd1d40"
+  },
+  "idPolaganja": 3,
+  "idPrijave": 6,
+  "brojPoena": null,
+  "datum": "2021-07-08",
+  "polozio": 1,
+  "inspektor": "bob"
+},
+{
+  "_id": {
+    "$oid": "60e97022c5d79003b8bd1d41"
+  },
+  "idPolaganja": 4,
+  "idPrijave": 4,
+  "brojPoena": 77,
+  "datum": "2021-06-01",
+  "polozio": 0,
+  "inspektor": "aleksa"
+},
+{
+  "_id": {
+    "$oid": "60e9702fc5d79003b8bd1d42"
+  },
+  "idPolaganja": 5,
+  "idPrijave": 7,
+  "brojPoena": 96,
+  "datum": "2021-07-01",
+  "polozio": 1,
+  "inspektor": "bob"
+}]

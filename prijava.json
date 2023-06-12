@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "60e96ebdc5d79003b8bd1d37"
+  },
+  "idPrijava": 1,
+  "vrsta": "t",
+  "mesto": 11000,
+  "username": "bosa",
+  "status": 0
+},
+{
+  "_id": {
+    "$oid": "60e96ed1c5d79003b8bd1d38"
+  },
+  "idPrijava": 2,
+  "vrsta": "t",
+  "mesto": 11000,
+  "username": "sanja",
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "60e96edfc5d79003b8bd1d39"
+  },
+  "idPrijava": 4,
+  "vrsta": "t",
+  "mesto": 14000,
+  "username": "djura",
+  "status": 0
+},
+{
+  "_id": {
+    "$oid": "60e96ef4c5d79003b8bd1d3a"
+  },
+  "idPrijava": 5,
+  "vrsta": "t",
+  "mesto": 11000,
+  "username": "djura",
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "60e96f01c5d79003b8bd1d3b"
+  },
+  "idPrijava": 6,
+  "vrsta": "v",
+  "mesto": 11000,
+  "username": "sanja",
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "60e96f12c5d79003b8bd1d3c"
+  },
+  "idPrijava": 7,
+  "vrsta": "t",
+  "mesto": 11000,
+  "username": "mica",
+  "status": 1
+},
+{
+  "_id": {
+    "$oid": "60e96f1fc5d79003b8bd1d3d"
+  },
+  "idPrijava": 8,
+  "vrsta": "v",
+  "mesto": 11000,
+  "username": "mica",
+  "status": 1
+}]

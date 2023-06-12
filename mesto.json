@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "60e96d9ac5d79003b8bd1d31"
+  },
+  "idMesto": 11000,
+  "naziv": "Beograd"
+},
+{
+  "_id": {
+    "$oid": "60e96da7c5d79003b8bd1d32"
+  },
+  "idMesto": 11300,
+  "naziv": "Smederevo"
+},
+{
+  "_id": {
+    "$oid": "60e96db5c5d79003b8bd1d33"
+  },
+  "idMesto": 14000,
+  "naziv": "Valjevo"
+},
+{
+  "_id": {
+    "$oid": "60e96dc1c5d79003b8bd1d34"
+  },
+  "idMesto": 15000,
+  "naziv": "Šabac"
+},
+{
+  "_id": {
+    "$oid": "60e96dd1c5d79003b8bd1d35"
+  },
+  "idMesto": 21000,
+  "naziv": "Novi Sad"
+},
+{
+  "_id": {
+    "$oid": "60e96de7c5d79003b8bd1d36"
+  },
+  "idMesto": 34000,
+  "naziv": "Kragujevac"
+}]

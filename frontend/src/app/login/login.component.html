@@ -1,0 +1,6 @@
+<h4>Prijava</h4>
+<div style="color:red">{{greska}}</div>
+
+<input type="text" id="username" [(ngModel)]="username" placeholder="username">
+<input type="password" id="password" [(ngModel)]="password" placeholder="password">
+<button type="button" (click)="login()">Prijava</button>

@@ -1,0 +1,31 @@
+{{ulogovan.ime}} {{ulogovan.prezime}}, {{ulogovan.datumRodjenja | date:'mediumDate'}}<button (click)="logout()">Logout</button>
+
+
+<h4>Polaganja</h4>
+<table>
+    <tr>
+        <td>vrsta</td>
+        <td>br poena</td>
+        <td>datum</td>
+        <td>mesto</td>
+        <td>inspektor</td>
+    </tr>
+    <tr *ngFor="let p of polaganja">
+        <td>{{p.prijava.vrsta}}</td>
+        <td>{{p.brojPoena}} {{p.brojPoena?'-':''}} {{p.polozio ? 'polozen' : 'pao'}}</td>
+        <td>{{p.datum}}</td>
+        <td>{{p.prijava.mesto_naziv}}</td>
+        <td>{{p.inspektor}}</td>
+    </tr>
+</table>
+
+<h4>Forma</h4>
+Tip: <select [(ngModel)]="tip">
+    <option [disabled]="polozena_teorija" value="t">Test</option>
+    <option [disabled]="polozena_voznja" value="v">Voznja</option>
+</select>
+<br>
+Mesto:<select [(ngModel)]="grad">
+    <option *ngFor="let s of sva_mesta" value="{{s['idMesto']}}" [selected]="s['idMesto']==ulogovan.mesto">{{s['naziv']}}</option>
+</select>
+<button type="button" (click)="dodaj()">Salji</button>

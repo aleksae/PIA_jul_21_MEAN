@@ -1,0 +1,33 @@
+{{ulogovan.ime}} {{ulogovan.prezime}}, {{ulogovan.mestoNaziv}}<button (click)="logout()">Logout</button>
+
+<h4>Prijave za {{ulogovan.mestoNaziv}}</h4>
+<table>
+    <tr>
+        <td>ime</td>
+        <td>prezime</td>
+        <td>vrsta</td>
+        <td>Akcija</td>
+        
+    </tr>
+    <tr *ngFor="let p of prijave">
+        <td>{{p.ime}}</td>
+        <td>{{p.prezime}}</td>
+        <td>{{p.vrsta}} ({{p.idPrijava}})</td>
+        <td><button (click)="prikaz_forme(p)">Unesi rezultat</button></td>
+
+    </tr>
+</table>
+
+
+<div *ngIf="izabrana_prijava">
+    <br>
+<hr>
+    <input type="number" placeholder="brPoena" *ngIf="izabrana_prijava.vrsta=='t'" [(ngModel)]="poeni">
+    <div *ngIf="izabrana_prijava.vrsta=='v'">
+        <input type="radio" name="izbor" value="1" [(ngModel)]="izbor">Polozio
+        <input type="radio" name="izbor" value="0" [(ngModel)]="izbor">Pao
+    </div>
+    <br>
+    <input type="date" name="datum" [(ngModel)]="datum">
+    <button (click)="salji()">Salji</button>
+</div>

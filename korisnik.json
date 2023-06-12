@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "60e96a62c5d79003b8bd1d28"
+  },
+  "username": "bob",
+  "password": "bob123",
+  "ime": "Slobodan",
+  "prezime": "Inspektoric",
+  "datumRodjenja": "1965-06-06",
+  "mesto": 11000,
+  "jeInspektor": 1
+},
+{
+  "_id": {
+    "$oid": "60e96aa2c5d79003b8bd1d29"
+  },
+  "username": "aleksa",
+  "password": "aleksa123",
+  "ime": "Aleksa",
+  "prezime": "Aleksic",
+  "datumRodjenja": "1970-01-01",
+  "mesto": 14000,
+  "jeInspektor": 1
+},
+{
+  "_id": {
+    "$oid": "60e96c96c5d79003b8bd1d2a"
+  },
+  "username": "bosa",
+  "password": "bosa123",
+  "ime": "Bosa",
+  "prezime": "Bosiljcic",
+  "datumRodjenja": "1991-05-25",
+  "mesto": 11000,
+  "jeInspektor": 0
+},
+{
+  "_id": {
+    "$oid": "60e96cbcc5d79003b8bd1d2b"
+  },
+  "username": "djura",
+  "password": "djura123",
+  "ime": "Djura",
+  "prezime": "Djuric",
+  "datumRodjenja": "2003-07-10",
+  "mesto": 11000,
+  "jeInspektor": 0
+},
+{
+  "_id": {
+    "$oid": "60e96cc8c5d79003b8bd1d2c"
+  },
+  "username": "jeca",
+  "password": "jeca123",
+  "ime": "Jeca",
+  "prezime": "Cincovic",
+  "datumRodjenja": "2003-04-16",
+  "mesto": 11000,
+  "jeInspektor": 0
+},
+{
+  "_id": {
+    "$oid": "60e96cd4c5d79003b8bd1d2d"
+  },
+  "username": "mica",
+  "password": "mica123",
+  "ime": "Milovan",
+  "prezime": "Milovanovic",
+  "datumRodjenja": "2000-10-09",
+  "mesto": 21000,
+  "jeInspektor": 0
+},
+{
+  "_id": {
+    "$oid": "60e96ce1c5d79003b8bd1d2e"
+  },
+  "username": "pera",
+  "password": "pera123",
+  "ime": "Petar",
+  "prezime": "Mladic",
+  "datumRodjenja": "2005-05-05",
+  "mesto": 11000,
+  "jeInspektor": 0
+},
+{
+  "_id": {
+    "$oid": "60e96cf0c5d79003b8bd1d2f"
+  },
+  "username": "sanja",
+  "password": "sanja123",
+  "ime": "Sanja",
+  "prezime": "Sanjić",
+  "datumRodjenja": "1993-04-22",
+  "mesto": 11000,
+  "jeInspektor": 0
+},
+{
+  "_id": {
+    "$oid": "60e96cfbc5d79003b8bd1d30"
+  },
+  "username": "zika",
+  "password": "zika123",
+  "ime": "Živojin",
+  "prezime": "Živojinović",
+  "datumRodjenja": "1995-08-08",
+  "mesto": 14000,
+  "jeInspektor": 0
+}]
