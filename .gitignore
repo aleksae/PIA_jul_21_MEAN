@@ -1,0 +1,6 @@
+# Ignore all in /frontend/.angular/cache/
+frontend/.angular/cache/*
+
+# Ignore all node_modules directories
+node_modules/
+**/node_modules/
